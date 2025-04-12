@@ -1,0 +1,77 @@
+# Build directory
+build/
+cmake-build-*/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Dependency files
+*.d
+
+# Debug files
+*.dSYM/
+*.su
+
+# ESP-IDF specific
+sdkconfig.old
+sdkconfig.backup
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Generated documentations
+docs/generated/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# AWS credentials
+aws-credentials.json
+
+# Certificate files
+*.pem
+*.key
+*.crt
+
+# Temporary files
+temp/
+tmp/
